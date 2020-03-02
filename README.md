@@ -6,7 +6,7 @@ This ros msg is used for [nuScenes CAN bus expansion](https://github.com/nutonom
 Download this repository in your catkin workspace and catkin_make.
 
 The ros msg contains:
-```cpp=
+```c=
 std_msgs/Header header
 geometry_msgs/Quaternion orientation    # rotation vector in the ego vehicle frame
 geometry_msgs/Vector3 acceleration      # acceleration vector in the ego vehicle frame in m/s/s
